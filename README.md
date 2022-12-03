@@ -1,6 +1,6 @@
 1. Используется БД для хранения данных.
 
-use Illuminate\Database\Capsule\Manager as Capsule;
+```use Illuminate\Database\Capsule\Manager as Capsule;
 
 $capsule = new Capsule;
 
@@ -24,4 +24,4 @@ $capsule->setEventDispatcher(new Dispatcher(new Container));
 $capsule->setAsGlobal();
 
 // Setup the Eloquent ORM... (optional; unless you've used setEventDispatcher())
-$capsule->bootEloquent();
+$capsule->bootEloquent();```
