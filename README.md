@@ -1,4 +1,6 @@
-1. Используется БД для хранения данных.
+**1. Используется БД для хранения данных.**
+
+**illuminate/database**
 
 ```use Illuminate\Database\Capsule\Manager as Capsule;
 
