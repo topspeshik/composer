@@ -27,3 +27,7 @@ $capsule->setAsGlobal();
 
 // Setup the Eloquent ORM... (optional; unless you've used setEventDispatcher())
 $capsule->bootEloquent();```
+
+**3. Формируются XLS-отчеты на основе данных. **
+
+PhpSpreadsheet — это библиотека, написанная на чистом PHP и предлагающая набор классов, позволяющих читать и записывать различные форматы файлов электронных таблиц, такие как Excel и LibreOffice Calc.
