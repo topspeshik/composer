@@ -7,6 +7,9 @@
         "laminas/laminas-mail": "^2.18", 
         "aws/aws-sdk-php": "^3.237", 
         "phpunit/phpunit": "^9.5", 
-        "yandex-market/yandex-market-php-partner": "^2.4" 
+        "yandex-market/yandex-market-php-partner": "^2.4",
+        "watson/rememberable": "^6.0",
+        "hybridauth/hybridauth": "^3.8",
+        "trustly/trustly-client-php": "^2021.1"
     }
 }
